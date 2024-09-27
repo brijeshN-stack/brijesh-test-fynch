@@ -18,7 +18,7 @@ const nextConfig = {
               value: `
                     default-src 'self';  
                     frame-src 'self' ${process.env.NEXT_PUBLIC_FRAME_SRC_DOMAINS};
-                    script-src 'self' 'unsafe-inline' 'unsafe-eval' ${process.env.NEXT_PUBLIC_SCRIPT_SRC_DOMAINS};
+                    script-src 'self' 'unsafe-inline' ${process.env.NEXT_PUBLIC_SCRIPT_SRC_DOMAINS};
                     connect-src 'self' ${process.env.NEXT_PUBLIC_CONNECT_SRC_DOMAINS};
                     style-src 'self' 'unsafe-inline' ${process.env.NEXT_PUBLIC_STYLE_SRC_DOMAINS};  
                     img-src 'self' data: *;
