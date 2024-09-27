@@ -1,0 +1,63 @@
+export const defaultStyle = {
+  primaryColor: process.env.NEXT_PUBLIC_PRIMARY_COLORS || '#0E163B',
+  secondaryColor: process.env.NEXT_PUBLIC_SECONDARY_COLOR || '#F5F4F4',
+  authScreenButtonColor: process.env.NEXT_PUBLIC_AUTH_SCREEN_BUTTON_COLOR || '#149D8E',
+  authScreenColorTextFieldColor: process.env.NEXT_PUBLIC_AUTH_SCREEN_TEXT_FIELD_COLOR || '#A8A7A7',
+  wfhButtonColor: process.env.NEXT_PUBLIC_WFH_BUTTON_COLOR || '#139C8E',
+  wfoButtonColor: process.env.NEXT_PUBLIC_WFO_BUTTON_COLOR || '#6B78F0',
+  pageBackgroundColor: process.env.NEXT_PUBLIC_PAGE_BACKGROUND_COLOR || '#EEECEC',
+  dialogInputFieldsColor: process.env.NEXT_PUBLIC_DIALOG_INPUT_FIELDS_COLOR || '#B7B7B7',
+  disableButtonColor: process.env.NEXT_PUBLIC_DISABLE_BUTTON_COLOR || '#E3E3E3',
+  sidebarAndAuthScreenTextColor: process.env.NEXT_PUBLIC_SIDEBAR_AND_AUTH_SCREEN_TEXT_COLOR || '#F5F4F4',
+  sidebarDropdownTextColor: '#E2E2E2',
+  primaryButtonBoxShadow: '4px 4px 15px 0px #00000033',
+  secondaryButtonBoxShadow: '0px 7px 10px 0px #00000026',
+  whiteColor: '#FFFFFF',
+  cardBackground: 'linear-gradient(119.64deg, rgba(95, 95, 95, 0.47) 0%, rgba(102, 102, 102, 0.24) 100.81%)',
+  cardResponsiveWidth: { sm: '450px', md: '500px', lg: '587px' },
+  colorTransparent: 'transparent',
+  greyBorder: '#9A9A9A',
+  fieldErrorColor: '#d32f2f',
+  sidebarDeviderColor: process.env.NEXT_PUBLIC_SIDEBAR_DEVIDER_COLOR || '#343A5A',
+  defaultPriorityBoxBorder: '#000000',
+  addVehicleTextColor: '#F4F4F4',
+  addedVehicleCo2Text: '#929292',
+  monthRangePickerTextColor: '#A9A9A9',
+  monthRangePickerDateColor: '#828282',
+  submitExpenseDisableColur: '#CECECE',
+  downloadAllButtonBorderColor: '#5C5C5C',
+  downloadAllButtonFontColor: '#666666',
+};
+
+export const defaultFormsFields = {
+  borderColor: defaultStyle.dialogInputFieldsColor,
+  borderWidth: '1px',
+  borderRadius: '7px',
+  color: defaultStyle.primaryColor,
+  backgroundColor: 'transparent',
+  errorColor: defaultStyle.fieldErrorColor,
+  placeholderColor: defaultStyle.dialogInputFieldsColor,
+};
+export const defaultSidebarDropdown = {
+  backgroundColor: 'transparent',
+  color: defaultStyle.sidebarDropdownTextColor,
+  borderColor: defaultStyle.dialogInputFieldsColor,
+  borderWidth: '1px',
+  borderRadius: '4px',
+};
+export const defaultAuthScreenFields = {
+  borderColor: defaultStyle.authScreenColorTextFieldColor,
+  borderWidth: '1px',
+  borderRadius: '5px',
+  color: defaultStyle.whiteColor,
+  backgroundColor: 'transparent',
+  errorColor: defaultStyle.fieldErrorColor,
+  placeholderColor: defaultStyle.authScreenColorTextFieldColor,
+};
+export const defaultOrderPriorityDropdpwn = {
+  backgroundColor: 'transparent',
+  color: defaultStyle.primaryColor,
+  borderColor: defaultStyle.defaultPriorityBoxBorder,
+  borderWidth: '1px',
+  borderRadius: '4px',
+};

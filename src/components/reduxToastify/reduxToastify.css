@@ -1,0 +1,48 @@
+.redux-toastr {
+  background: black !important;
+}
+.redux-toastr .top-right {
+  right: 0;
+  margin-right: 50px !important;
+}
+.redux-toastr .toastr.rrt-success {
+  background-color: #0e163b;
+  width: 370px;
+}
+.redux-toastr .toastr .rrt-left-container {
+  margin-left: -3px;
+  display: flex;
+  height: 100%;
+  align-items: center;
+  width: 50px;
+}
+.redux-toastr .toastr .rrt-middle-container {
+  margin-left: 48px;
+  width: 82%;
+  text-wrap: balance;
+}
+.redux-toastr .toastr .close-toastr span {
+  color: white !important;
+  left: -25px;
+}
+.redux-toastr .toastr {
+  min-height: 43px;
+  /* max-height: 43px; */
+  height: 100%;
+  display: flex;
+  align-items: center;
+  border-radius: 6px;
+}
+.redux-toastr .toastr .rrt-left-container .rrt-holder {
+  left: 20px;
+  line-height: 0px;
+  margin-top: 0;
+  height: 0px;
+  display: flex;
+  align-items: center;
+}
+.redux-toastr .toastr .rrt-middle-container .rrt-title {
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 0px;
+}

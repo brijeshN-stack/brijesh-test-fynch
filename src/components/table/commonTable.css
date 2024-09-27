@@ -1,0 +1,79 @@
+.css-qcqlck-MuiDataGrid-root .MuiDataGrid-virtualScrollerContent .MuiDataGrid-row {
+  background: #fcfcfc;
+}
+.css-qcqlck-MuiDataGrid-root .MuiDataGrid-row.Mui-selected {
+  background: #f0f1f1 !important;
+}
+.css-qcqlck-MuiDataGrid-root .MuiDataGrid-row.Mui-selected:hover {
+  background: #f0f1f1 !important;
+}
+.MuiDataGrid-container--top [role='row'] {
+  background: #e4e4e4 !important;
+  height: 38px !important;
+  display: flex;
+  align-items: center;
+  border-radius: 6px !important;
+}
+.css-wop1k0-MuiDataGrid-footerContainer {
+  display: none !important;
+}
+.MuiDataGrid-columnHeader {
+  height: 38px !important;
+  color: #828282 !important;
+}
+.css-i4bv87-MuiSvgIcon-root {
+  width: 18px;
+  height: 17px;
+}
+.MuiDataGrid-cell:focus-within {
+  outline: solid transparent 1px !important;
+}
+.MuiDataGrid-columnHeader:focus-within {
+  outline: solid transparent 1px !important;
+}
+.css-qzm9j1-MuiDataGrid-root .MuiDataGrid-cell:focus {
+  outline: solid transparent 1px;
+}
+.MuiDataGrid-scrollbarFiller.MuiDataGrid-scrollbarFiller--borderTop {
+  border-top: 0 !important;
+}
+.MuiDataGrid-virtualScrollerContent .MuiDataGrid-row.Mui-selected {
+  background-color: #f0f1f1 !important;
+  border-radius: 6px !important;
+}
+.MuiDataGrid-cell--textLeft {
+  color: #828282;
+}
+.MuiDataGrid-virtualScrollerContent .MuiDataGrid-row {
+  background: #fcfcfc;
+  max-height: 38px !important;
+  min-height: 38px !important;
+  --height: 38px !important;
+  --rowBorderColor: transparent !important;
+}
+.MuiDataGrid-virtualScrollerRenderZone {
+  gap: 8px !important;
+  padding-top: 10px !important;
+}
+.css-1kwdphh-MuiDataGrid-virtualScrollerContent {
+  height: 100% !important;
+}
+.MuiDataGrid-cell--textLeft[type='actions'] {
+  display: flex;
+  justify-content: center;
+}
+.MuiDataGrid-virtualScrollerContent .MuiDataGrid-row:hover {
+  border-radius: 6px !important;
+}
+.MuiDataGrid-virtualScrollerContent .MuiDataGrid-row.Mui-selected .MuiDataGrid-cell {
+  color: #0e163b !important;
+}
+.MuiDataGrid-root .Mui-checked {
+  color: #0e163b !important;
+}
+.MuiDataGrid-scrollbar {
+  display: none !important;
+}
+.css-jmgi9p::after {
+  background-color: transparent !important;
+}
