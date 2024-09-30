@@ -9,7 +9,7 @@ const nextConfig = {
 
     const policies = {
       'default-src': ["'self'"],
-      'script-src': ["'self'", process.env.NEXT_PUBLIC_SCRIPT_SRC_DOMAINS],
+      'script-src': ["'self'", "'unsafe-inline'", process.env.NEXT_PUBLIC_SCRIPT_SRC_DOMAINS],
       'style-src': ["'self'", "'unsafe-inline'", process.env.NEXT_PUBLIC_STYLE_SRC_DOMAINS],
       'img-src': ["'self'", 'data:', '*'],
       'font-src': ["'self'"],
