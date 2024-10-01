@@ -43,7 +43,6 @@ export default function Dashboard() {
     monthValue: undefined,
     yearValue: undefined,
   });
-  console.log(process.env.NODE_ENV, '***');
 
   const [locale, setLocale] = useState<any>(null);
   const [licenseDataFromLocal, setLicensetDataFromLocal] = useState<any>();
